@@ -33,5 +33,5 @@ jobs:
       - name: Build and Deploy
         run: |
           npm run build
-          npx gh-pages -d build --repo https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/lumedrano/my-react-app.git
+          npx gh-pages -d build --repo https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/lumedrano/react-site-template.git
         working-directory: ./my-react-app
